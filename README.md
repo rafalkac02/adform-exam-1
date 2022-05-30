@@ -12,7 +12,7 @@ Table of contents
 ## About the Project
 
 ### Adform's exam
-This project is a part of a final exam after 3-months of Scala Academy at [Adform](https://site.adform.com/). Exam consists of 7 exercises. You can navigate to them in Exam TOC below.
+This project is a part of a final exam after 3-months of Scala Academy at [Adform](https://site.adform.com/). The exam consists of 7 exercises. You can navigate to them in Exam TOC below.
 
 <details>
   <summary>Exam TOC</summary>
@@ -24,7 +24,6 @@ This project is a part of a final exam after 3-months of Scala Academy at [Adfor
 5. [Challenge #5](https://github.com/rafalkac02/adform-exam-5)
 6. [Challenge #6](https://github.com/rafalkac02/adform-exam-6)
 7. [Challenge #7](https://github.com/rafalkac02/adform-exam-7)
-8.
 </details>
 
 ### Project description
@@ -32,14 +31,14 @@ The project does XYZ.
 
 
 ## Getting Started
-The project is build with:
+The project is built with:
 - Scala
 - sbt
 
 ## Usage
-- Clone the repository to chosen directory with `git clone https://github.com/rafalkac02/adform-exam-1` command.
-- Run application with `sbt run` command in the same directory
-- Test application with `sbt test` command
+- Clone the repository to the chosen directory with `git clone https://github.com/rafalkac02/adform-exam-1` command.
+- Run the application with `sbt run` command in the same directory
+- Test the application with `sbt test` command
 
 
 ## Troubleshooting
