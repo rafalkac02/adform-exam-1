@@ -63,6 +63,25 @@ The project is built with:
 - Run the application with `sbt run` command in the same directory
 - Test the application with `sbt test` command
 
+The application reads from kafka topic named `my-topic` 
+To produce messages, do the following in `kafka/bin` directory on `ubuntu`:
+1. run zookeeper
+```     
+bin/zookeeper-server-start.sh config/zookeeper.properties
+```
+2. start broker
+```
+bin/kafka-server-start.sh config/server.properties
+```
+3. create `my-input` topic
+```
+bin/kafka-topics.sh --create --topic input --bootstrap-server localhost:9092
+```
+4. start producer
+```
+bin/kafka-console-producer.sh --topic input --bootstrap-server localhost:9092
+```
+
 
 ## Troubleshooting
 - Make sure that your project does not contain outdated project files using:
