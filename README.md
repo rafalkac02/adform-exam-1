@@ -27,13 +27,36 @@ This project is a part of a final exam after 3-months of Scala Academy at [Adfor
 </details>
 
 ### Project description
-The project does XYZ.
+This task is about Spark, Kafka and Hadoop.
 
+- task description:
+
+```text
+Write a Spark application that reads records from a Kafka topic.
+This application does the following transformations:
+
+- Writes records to Kafka in JSON format
+JSON example:
+{
+"name": "John",
+"surname": "Doe",
+"cats": 1,
+"dogs": 2
+}
+- Reads the data from the topic
+- Parses the JSONs
+- Surname to upper case letters
+- Sum cats and dogs fields and write the result to the new field “animals”.
+- The result should be written as a parquet file in which every record consists of 3 columns: name (String), surname (String), animals (Integer).
+
+```
 
 ## Getting Started
 The project is built with:
 - Scala
 - sbt
+- Spark
+- Kafka
 
 ## Usage
 - Clone the repository to the chosen directory with `git clone https://github.com/rafalkac02/adform-exam-1` command.
@@ -46,4 +69,4 @@ The project is built with:
 ```
 sbt clean
 ```
-- Make sure that your environment variables are set properly, including `JAVA_HOME`
+- Make sure that your environment variables are set properly, including `JAVA_HOME`, `SPARK_HOME`, `HADOOP_HOME`
