@@ -64,7 +64,7 @@ The project is built with:
 - Test the application with `sbt test` command
 
 The application reads from kafka topic named `my-topic` 
-To produce messages, do the following in `kafka/bin` directory on `ubuntu`:
+To produce messages, do the following in `kafka` directory on `ubuntu`:
 1. run zookeeper
 ```     
 bin/zookeeper-server-start.sh config/zookeeper.properties
